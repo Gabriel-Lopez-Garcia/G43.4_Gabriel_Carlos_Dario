@@ -3,30 +3,29 @@ body {
   height: 1000px;
 }
 
-  header {
-    display: block;
-    height: 20%;
-    background-color: #888888;
-  }
+header {
+  display: block;
+  height: 20%;
+  background-color: #888888;
+}
 
-  header .Logo {
-    text-align: center;
-    align-items: center;
-    height: 100%;
-  }
+header .Logo {
+  text-align: center;
+  align-items: center;
+  height: 100%;
+}
 
-  header .Logo img {
-    height: 100px;
-    width: 100px;
-    transition: 0.4s;
-  }
+header .Logo img {
+  height: 100px;
+  width: 100px;
+  transition: 0.4s;
+}
 
   header .Logo img:hover {
     transform: scale(1.1);
   }
 
-  header .Barra_Navegacion .Navegador {
-    list-style-type: none;
-    display: flex;
-  }
-
+header .Barra_Navegacion .Navegador {
+  list-style-type: none;
+  display: flex;
+}
